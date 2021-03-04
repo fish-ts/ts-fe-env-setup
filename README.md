@@ -24,10 +24,17 @@
 
 ### 配置文件
 - tsconfig.json
-  typescript编译选项的配置文件
+  
+  typescript编译选项的配置文件，直接复制就行了
 
 - webpack.config.js
-  webpack编译的配置文件
+  
+  webpack编译的配置文件，直接复制就行
+  
+### 基本逻辑
+webpack以src/index.ts如入口，先通过ts-loader和tsc将文件编译成js，在通过webpack内置的打包工具将它们打包成一个文件：bundle.js。
+
+我们在通过index.html引用bundle.js,通过浏览器打开index.html就可以控制台看到bundle.js，也就是index.ts，的运行结果了。
 
 ### 代码检查
 现在我还需要代码linter工具。
