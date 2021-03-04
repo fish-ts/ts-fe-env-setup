@@ -1,7 +1,5 @@
-function axios(url: string){
-  console.log(url)
+function hello(name: string){
+  console.log('hello ' + name)
 }
 
-axios('https://medium.com')
-axios(111)
-// 这样的错误参数类型，eslint不报错吗？？
+hello(1024)

@@ -1,0 +1,2 @@
+我正在使用VSCode学习开发TypeScript项目，然后我使用了ESLint作为我的代码风格检查工具。
+

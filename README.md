@@ -53,3 +53,7 @@ $ npx eslint --init
 在生成的配置文件中，它会自动配置typescript，这样就可以开始代码检查了
 
 ![](./vscode.png)
+
+这个插件问题服了
+
+现在我直接搜索eslint typescript，看看文档中怎么说的
