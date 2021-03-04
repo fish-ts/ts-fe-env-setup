@@ -14,6 +14,9 @@
 
 之后配置webpack.config.js，以src/index.js为入口，编译项目，输出到dist/bundle.js文件中，然后通过index.html引用bundle.js就可以了。
 
+### 配置文件
+直接复制就行了
+
 ### 编译命令：
 - `npx webpack` : 直接调用webpack的脚手架来编译
 - `npm run watch` : 通过npm script来执行命令
