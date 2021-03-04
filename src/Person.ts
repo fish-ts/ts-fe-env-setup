@@ -4,7 +4,7 @@ interface Person{
 
 function showName(person: Person){
   console.log(person.firstname)
-  console.log(person.lastname)
+  // console.log(person.lastname)
 }
 
 export default showName
